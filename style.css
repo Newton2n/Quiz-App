@@ -15,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top:40px;
-    background-color: #2c2c54;
+    background-color: #fdf3f3;
 }
 #heading{
     font-size: 30px;
@@ -34,7 +34,7 @@ body{
 #main{
     width:85vw;
     height:auto;
-    background-color: #b33939;
+    background-color: #39a7b3;
     border-radius: 7px;
 }
 @media screen and (min-width:400px) {
@@ -53,7 +53,8 @@ body{
 
 }
 #next{
-    background-color:#b33939;
+    background-color:#ffffff;
+    color: #111;
 }
 .option{
     margin-top:5px;
@@ -66,31 +67,35 @@ body{
     font-weight: 600;
 }
 .option:hover{
-background-color:#db5252;
+background-color:#fee8e8;
 }
 #nxt{
     display: flex;
   justify-content: center;
+  color: #111;
 }
 #next{
     padding: 7px;
     font-size:18px;
-    color:white;
-    border:1.5px solid white;
+    color:#111;
+    
     margin-top:5px;
     border-radius: 4px;
+    transition: background-color 0.5s ease;
     
 }
 #next:hover{
-    background-color: #ffb142;
+    background-color: #000000;
     cursor: pointer;
+    color:#ffffff;
 }
 .wrong{
-  background-color: rgb(255, 46, 46);
+  background-color: rgb(206, 96, 96);
+  color:#fff;
 }
 .right{
     background-color: white;
-    color:rgb(255, 111, 111);
+    color:rgb(0, 0, 0);
 }
 .mark{
     display: flex;
